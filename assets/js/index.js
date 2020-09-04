@@ -1,6 +1,4 @@
 $(function () {
-    // 模拟点击，进入 index.html 主页之后，让左侧菜单的第一项处于默认选中状态，从而防止右侧主体为空的情况
-    $('#firstNavItem').click();
 
     // 获取用户的基本信息
     getUserInfo();
